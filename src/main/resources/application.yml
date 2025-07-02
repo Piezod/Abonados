@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Piezod:COPITOCOMO3@piscinas.jywlce8.mongodb.net/piscina?retryWrites=true&w=majority&appName=Piscinas
+  jackson:
+    default-property-inclusion: non_null
+    visibility:
+      getter: any
+      setter: any
